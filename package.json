@@ -1,0 +1,36 @@
+{
+  "name": "to-do-app-dev.f",
+  "version": "1.0.0",
+  "description": "to do list app",
+  "private": true,
+  "workspaces":[
+    "to-do-list-api",
+    "to-do-list-app"
+  ],
+  "scripts": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Mrbanano/to-do-app-dev.f.git"
+  },
+  "keywords": [
+    "todo",
+    "list",
+    "app"
+  ],
+  "author": "Alvaro Castillo",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Mrbanano/to-do-app-dev.f/issues"
+  },
+  "homepage": "https://github.com/Mrbanano/to-do-app-dev.f#readme",
+  "devDependencies": {
+    "eslint": "^7.32.0",
+    "eslint-config-standard": "^16.0.3",
+    "eslint-plugin-import": "^2.24.2",
+    "eslint-plugin-node": "^11.1.0",
+    "eslint-plugin-prettier": "^4.0.0",
+    "eslint-plugin-promise": "^5.1.0",
+    "eslint-plugin-react": "^7.26.0",
+    "prettier": "^2.4.1"
+  }
+}
